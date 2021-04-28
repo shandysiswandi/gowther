@@ -1,4 +1,4 @@
-# Goalang Gowther
+# Golang Gowther
 lorem ipsum dolor amet
 
 ## How to install
@@ -17,8 +17,8 @@ import (
 )
 
 func main() {
-	isBuzz := gowther.Version(1)
+	v := gowther.Version(1)
 
-	fmt.Println("Version of Gowther is", isBuzz)
+	fmt.Println("Version of Gowther is", v)
 }
 ```
