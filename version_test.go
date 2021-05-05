@@ -7,7 +7,7 @@ import (
 )
 
 func TestVersion(t *testing.T) {
-	assert.Equal(t, "0.1.0", Version())
+	assert.Equal(t, "0.2.0", Version())
 }
 
 func BenchmarkVersion(b *testing.B) {
